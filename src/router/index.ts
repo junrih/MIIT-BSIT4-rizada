@@ -6,24 +6,19 @@ import Footer from '../views/Footer.vue';
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
-    redirect: 'index'
+    redirect: 'Login'
   },
   {
-    path: '/index',
-    name: "index",
-    component: () => import('@/views/Index/index.vue')
+    path: '/Profile',
+    name: "Profile",
+    component: () => import('@/views/Profile/index.vue')
   },
   {
-    path: '/signin',
-    name: "signin",
-    component: () => import('@/views/Signin/index.vue')
+    path: '/Login',
+    name: "Login",
+    component: () => import('@/views/Login/index.vue')
   },
-  {
-    path: '/Signup',
-    name: "Signup",
-    component: () => import('@/views/Signup/index.vue')
-  },
-
+ 
   {
     path: '/tabs/',
     component: Footer,
