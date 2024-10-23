@@ -35,6 +35,7 @@ import '@ionic/vue/css/display.css';
 import './theme/variables.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
+
 const app = createApp(App)
   .use(IonicVue)
   .use(router);

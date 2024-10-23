@@ -59,7 +59,6 @@
         <ion-footer>
             <ion-toolbar class="p-2">
                 <button slot="end" class="btn btn-primary w-30" @click="nextScreen()">Sign In</button>
-                <button slot="start" class="btn btn-primary w-30" @click="homeScreen()">Back to Home</button>
             </ion-toolbar>            
         </ion-footer>
     </ion-page>
@@ -73,11 +72,8 @@ export default defineComponent ({
     components: { IonBackButton, IonButtons, IonToolbar, IonTitle, IonHeader, IonPage, IonContent, IonFooter },
     methods: {
         async nextScreen() {
-            this.$router.push('/Profile')
+            this.$router.push('/Home')
         },
-        async homeScreen() {
-            this.$router.push('/home')
-        }
     }
 })
 </script>
