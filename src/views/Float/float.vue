@@ -3,7 +3,7 @@
       <ion-header>
         <ion-toolbar>
           <ion-title>Floating Buttons</ion-title>
-          <ion-back-button slot="start" default-href="/home"></ion-back-button> <!-- Fixed Back Button -->
+          <ion-back-button slot="start" default-href="/home"></ion-back-button>
         </ion-toolbar>
       </ion-header>
   

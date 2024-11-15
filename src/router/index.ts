@@ -45,6 +45,21 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/Float/float.vue')
   },
   {
+    path: '/swiper',
+    name: "swiper",
+    component: () => import('@/views/swiper/index.vue')
+  },
+  {
+    path: '/swiper-loop',
+    name: "swiper-loop",
+    component: () => import('@/views/swiper-loop/index.vue')
+  },
+  {
+    path: '/localstorage',
+    name: "localstorage",
+    component: () => import('@/views/localstorage/index.vue')
+  },
+  {
     path: '/tabs/',
     component: Footer,
     children: [
