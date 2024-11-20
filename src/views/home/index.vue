@@ -56,7 +56,24 @@
                 <p>Learn how to implement device storage</p>
                 </ion-label>
             </ion-item>
-
+            <ion-item button detail="true" @click="()=>{ $router.push('/g-map')}">
+                <ion-label>
+                <h2><b>Activity 4: Map Implementation</b></h2>
+                <p>Learn how to implement device storage</p>
+                </ion-label>
+            </ion-item>
+            <ion-item button detail="true" @click="()=>{ $router.push('/geo-location')}">
+                <ion-label>
+                <h2><b>Activity 5: GPS / Geo-location</b></h2>
+                <p>Learn how to implement device storage</p>
+                </ion-label>
+            </ion-item>
+            <ion-item button detail="true" @click="()=>{ $router.push('/camera')}">
+                <ion-label>
+                <h2><b>Activity 6: Camera Implementation</b></h2>
+                <p>Learn how to implement device storage</p>
+                </ion-label>
+            </ion-item>
 
         </ion-content>
     </ion-page>

@@ -60,6 +60,21 @@ const routes: Array<RouteRecordRaw> = [
     component: () => import('@/views/localstorage/index.vue')
   },
   {
+    path: '/g-map',
+    name: "g-map",
+    component: () => import('@/views/g-map/index.vue')
+  },
+  {
+    path: '/geo-location',
+    name: "geo-location",
+    component: () => import('@/views/geo-location/index.vue')
+  },
+  {
+    path: '/camera',
+    name: "camera",
+    component: () => import('@/views/camera/index.vue')
+  },
+  {
     path: '/tabs/',
     component: Footer,
     children: [
