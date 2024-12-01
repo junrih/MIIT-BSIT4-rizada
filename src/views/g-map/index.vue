@@ -48,7 +48,7 @@ export default defineComponent ({
     components: { IonToolbar, IonPage, IonFooter, IonHeader, IonContent, IonTitle, IonRouterOutlet, IonTabBar, IonTabButton, IonIcon, IonLabel, IonTabs},
     data() {
         return {
-            apiKey: 'AIzaSyA7nyAevnZcR1GncVAydyO9Nkip0JCBnb8'
+            apiKey: 'PRIVATE'
         }
     },
     methods: {
